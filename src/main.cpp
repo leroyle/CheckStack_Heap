@@ -1,7 +1,15 @@
 /**
+ * A simple app to monitor stack and heap usage. 
+ * the loop will recusivly call itself, allocating
+ * memory and dumping heap and stack statistics.
+ * The stack statistics closly follow but do not exactly
+ * match those seen with Seggers Ozone debugger
  * 
+ * This does require runtime changes as noted in the top 
+ * level README
  * 
- * 
+ * NOTE: You must start a terminal debug session before loop()
+ * will be called.
  */
 
 #include <Arduino.h>
