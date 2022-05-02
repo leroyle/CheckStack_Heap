@@ -1,4 +1,6 @@
 
+### NOTE: This repo is deprecated. The code below requires update to the FreeRTOS implementation. The command line interface repo at https://github.com/leroyle/Embedded_Cli contains reworked stack and heap check routines, as well as others, that do not require FreeRTOS changes.
+
 ### HeapCheck
 A device app that will demonstrate monitoring heap and stack usage.  
 
